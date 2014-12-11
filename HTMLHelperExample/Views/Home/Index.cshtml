@@ -1,0 +1,9 @@
+﻿@using HTMLHelperExample.Utilities
+@model Dictionary<string, List<int>>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="title">Stacked Bargraph Example</h2>
+
+ @Html.StackedGraph(Model)
